@@ -31,5 +31,5 @@ public function registerBundles()
 ### View
 
 ```twig
-{{ jquery_autocomplete('autocomplete_1') }}
+<div class="css_class">{{ jquery_autocomplete('autocomplete_1') }}</div>
 ```
