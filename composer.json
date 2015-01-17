@@ -1,0 +1,16 @@
+{
+    "name": "schokri/jquery-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Schokri",
+            "homepage": "https://github.com/schokri"
+        }
+    ],
+    "description": "Symfony Jquery Bundle",
+    "autoload": {
+        "psr-0": {
+            "Schokri\\JqueryBundle": "src/"
+        }
+    }
+}
