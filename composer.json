@@ -1,5 +1,6 @@
 {
     "name": "schokri/jquery-bundle",
+    "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
@@ -8,9 +9,11 @@
         }
     ],
     "description": "Symfony Jquery Bundle",
+    "require": {
+        "php":                          ">=5.3.3",
+        "symfony/framework-bundle":     "~2.2"
+    },
     "autoload": {
-        "psr-0": {
-            "Schokri\\JqueryBundle": ""
-        }
+        "psr-0": {"Schokri\\JqueryBundle": ""}
     }
 }
