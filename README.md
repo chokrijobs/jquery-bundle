@@ -1,5 +1,6 @@
 # jquery-bundle
 ## Installation
+add this line to your composer.json
 ```sh
  "schokri/jquery-bundle": "dev-dev"
 ```
