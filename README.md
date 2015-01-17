@@ -14,3 +14,22 @@ jquery:
         autocomplete_2:
             entity: AppBundle\Entity\Product
 ```
+### Add PaginatorBundle to your application kernel
+
+```php
+// app/AppKernel.php
+public function registerBundles()
+{
+    return array(
+        // ...
+        new Schokri\JqueryBundle\JqueryBundle(),
+        // ...
+    );
+}
+```
+## Usage examples:
+### View
+
+```twig
+{{ jquery_autocomplete('autocomplete_1') }}
+```
