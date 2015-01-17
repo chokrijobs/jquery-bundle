@@ -10,7 +10,7 @@
     "description": "Symfony Jquery Bundle",
     "autoload": {
         "psr-0": {
-            "Schokri\\JqueryBundle": "src/"
+            "Schokri\\JqueryBundle": ""
         }
     }
 }
