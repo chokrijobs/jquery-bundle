@@ -6,6 +6,7 @@ add this line to your composer.json
 ```
 ### Configuration example
 ```yaml
+# app/config/jquery.yml 
 jquery:
     connection: default
     jquery_autocomplete:
@@ -13,6 +14,12 @@ jquery:
             entity: AppBundle\Entity\Article
         autocomplete_2:
             entity: AppBundle\Entity\Product
+# app/config/config.yml
+imports:
+    - { resource: parameters.yml }
+    - { resource: security.yml }
+    #...
+    - { resource: jquery.yml }
 ```
 ### Add PaginatorBundle to your application kernel
 
