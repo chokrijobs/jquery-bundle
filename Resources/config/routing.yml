@@ -1,3 +1,3 @@
-jquery_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: JqueryBundle:Default:index }
+jquery_autocomplete:
+    path:     /jquery_autocomplete
+    defaults: { _controller: JqueryBundle:Jquery:index }
